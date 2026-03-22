@@ -1,0 +1,91 @@
+﻿[36mvite v5.4.21 [32mbuilding for production...[36m[39m
+transforming...
+[32mΓ£ô[39m 3 modules transformed.
+node.exe : [31mx[39m 
+Build failed in 45ms
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo 
+...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: ([31mx[39m B   
+ uild failed in 45m    
+s:String) [], Remo    
+teException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+[31merror during 
+build:
+[31m[vite:css] Failed 
+to load PostCSS config 
+(searchPath: C:/Users/p
+avit/Desktop/Pavi 
+portfolio): 
+[ReferenceError] 
+module is not defined 
+in ES module scope
+This file is being 
+treated as an ES 
+module because it has 
+a '.js' file extension 
+and 'C:\Users\pavit\Des
+ktop\Pavi portfolio\pac
+kage.json' contains 
+"type": "module". To 
+treat it as a CommonJS 
+script, rename it to 
+use the '.cjs' file 
+extension.
+ReferenceError: module 
+is not defined in ES 
+module scope
+This file is being 
+treated as an ES 
+module because it has 
+a '.js' file extension 
+and 'C:\Users\pavit\Des
+ktop\Pavi portfolio\pac
+kage.json' contains 
+"type": "module". To 
+treat it as a CommonJS 
+script, rename it to 
+use the '.cjs' file 
+extension.
+    at file:///C:/Users
+/pavit/Desktop/Pavi%20p
+ortfolio/postcss.config
+.js:1:1
+    at ModuleJob.run (n
+ode:internal/modules/es
+m/module_job:345:25)
+    at async onImport.t
+racePromise.__proto__ (
+node:internal/modules/e
+sm/loader:665:26)
+    at async 
+importDefault (file:///
+C:/Users/pavit/Desktop/
+Pavi%20portfolio/node_m
+odules/vite/dist/node/c
+hunks/dep-BK3b2jBa.js:3
+3759:18)
+    at async 
+Object.search (file:///
+C:/Users/pavit/Desktop/
+Pavi%20portfolio/node_m
+odules/vite/dist/node/c
+hunks/dep-BK3b2jBa.js:2
+5915:23)[31m
+file: [36mC:/Users/pav
+it/Desktop/Pavi portfol
+io/src/index.css[31m
+[39m
