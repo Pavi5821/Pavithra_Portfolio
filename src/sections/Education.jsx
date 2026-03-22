@@ -5,21 +5,21 @@ import { GraduationCap, BookOpen, Scroll } from 'lucide-react';
 const education = [
   {
     degree: 'B.E. Electronics and Communication Engineering',
-    institution: 'College/University Name',
+    institution: 'Muthayammal Engineering College',
     year: '2022 – 2026',
     score: 'CGPA: 8.39',
     icon: <GraduationCap size={24} className="text-accent" />
   },
   {
     degree: 'Higher Secondary Certificate (HSC)',
-    institution: 'School Name',
+    institution: 'Government Higher Secondary School, Annasalai, Rasipuram',
     year: 'Completed',
     score: 'Percentage: 89.3%',
     icon: <BookOpen size={24} className="text-blue-500" />
   },
   {
     degree: 'Secondary School Leaving Certificate (SSLC)',
-    institution: 'School Name',
+    institution: 'Government Higher Secondary School, Annasalai, Rasipuram',
     year: 'Completed',
     score: 'Percentage: 90%',
     icon: <Scroll size={24} className="text-emerald-500" />
